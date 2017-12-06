@@ -1,4 +1,4 @@
-name: Commerce ePayco
+name: Commerce Payment ePayco
 type: module
 core: 8.x
 description: 'Provides Commerce integration for ePayco'
