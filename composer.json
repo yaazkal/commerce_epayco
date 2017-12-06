@@ -1,0 +1,10 @@
+{
+  "name": "drupal/commerce_payment_epayco",
+  "type": "drupal-module",
+  "description": "Commerce 2.x ePayco payment integration",
+  "homepage": "https://github.com/yaazkal/commerce_payment_epayco",
+  "require": {
+    "drupal/commerce": "^2.0",
+  },
+  "license": "GPL-2.0+"
+}
