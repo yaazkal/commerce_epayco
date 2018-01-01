@@ -18,4 +18,12 @@ interface StandardCheckoutInterface {
    *   The commerce secret key.
    */
    public function getCommerceKey();
+
+   /**
+   * Gets Commerce Test Mode.
+   *
+   * @return string
+   *   TRUE for test request.
+   */
+  public function isTestRequest();
 }

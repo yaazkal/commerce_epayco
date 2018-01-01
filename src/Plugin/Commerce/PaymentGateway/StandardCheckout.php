@@ -102,4 +102,11 @@ class StandardCheckout extends OffsitePaymentGatewayBase implements StandardChec
    public function getCommerceKey() {
     return $this->configuration['p_key'];
   }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function isTestRequest(){
+    return $this->configuration['mode'] == 'test' ? 'TRUE' : 'FALSE';
+  }
 }
